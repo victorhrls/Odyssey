@@ -4,7 +4,7 @@ An interactive map of Homer's *Odyssey* drawn over the real Mediterranean. It sh
 
 ![Odysseus's route across the Mediterranean](docs/screenshots/map.jpg)
 
-Open `build/index.html` in a browser. It is one self-contained file and needs no server or network.
+Open `index.html` in a browser. It is one self-contained file and needs no server or network.
 
 ## What it does
 
@@ -57,7 +57,8 @@ Sea routes are computed to avoid land, so paths and distances are approximate an
 | `src/fonts.json` | Fonts embedded at build time |
 | `build/geo.py` | Clips the coastline to the Mediterranean |
 | `build/routes.py` | Computes sea routes and writes `src/world.json` |
-| `build/bundle.py` | Combines everything into `build/index.html` |
+| `build/bundle.py` | Combines everything into `build/index.html` and the hosted `index.html` |
+| `index.html` | The page served by web hosting |
 | `tools/shot.js` | Takes screenshots with Playwright |
 | `docs/screenshots/` | Images used in this README |
 | `BRIEF.md`, `design/` | The original brief and the design reviews |

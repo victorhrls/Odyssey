@@ -13,4 +13,7 @@ if os.path.exists(R+'src/fonts.json'):
     css+="@font-face{font-family:'%s';font-weight:%s;font-style:%s;font-display:swap;src:url(data:font/woff2;base64,%s) format('woff2')}\n"%(f['family'],f['weight'],f.get('style','normal'),b)
 h=h.replace('/*__FONTS__*/',css).replace('/*__DATA__*/',d).replace('/*__WORLD__*/',w)
 open(R+'build/index.html','w',encoding='utf8').write(h)
-print('build/index.html',os.path.getsize(R+'build/index.html')//1024,'KB')
+# Standalone page for regular web hosting (Vercel): adds the doctype and viewport
+page='<!doctype html>\n<html lang="en">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n'+h
+open(R+'index.html','w',encoding='utf8').write(page)
+print('build/index.html and index.html',os.path.getsize(R+'index.html')//1024,'KB')
