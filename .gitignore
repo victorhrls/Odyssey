@@ -1,0 +1,6 @@
+geo/node_modules/
+geo/land.pkl
+shots/
+__pycache__/
+*.pyc
+.DS_Store

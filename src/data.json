@@ -1,0 +1,240 @@
+{
+"places": {
+"troy": {"name":"Troy","alt_name":"Ilion","modern":"Hisarlik, Çanakkale","country":"Turkey","lat":39.957,"lon":26.239,"certainty":"real","kind":"city","cantos":[1,3,4,8,9,11,24],"desc":"The starting point of every homecoming. The ruins at Hisarlik are accepted as historical Troy. In the Odyssey the war is already over and lives on in the memories of Nestor, Menelaus and Helen, and in Demodocus's song of the wooden horse."},
+"tenedos": {"name":"Tenedos","modern":"Bozcaada","country":"Turkey","lat":39.82,"lon":26.03,"certainty":"real","kind":"island","cantos":[3],"desc":"The Greeks' first stop after leaving Troy. The fleet splits again here. Odysseus turns back to please Agamemnon, and Nestor sails on."},
+"lesbos": {"name":"Lesbos","modern":"Lesbos","country":"Greece","lat":39.2,"lon":26.2,"certainty":"real","kind":"island","cantos":[3,4],"desc":"Nestor, Diomedes and Menelaus debate the way home here and choose to cross the open sea straight to Euboea. Menelaus also recalls Odysseus beating Philomeleides in a wrestling match on this island."},
+"geraestus": {"name":"Geraestus","modern":"Cape Mantelo, southern Euboea","country":"Greece","lat":38.01,"lon":24.54,"certainty":"real","kind":"cape","cantos":[3],"desc":"A cape in southern Euboea where Nestor's fleet arrives at night and offers bulls' thighs to Poseidon for the safe crossing of the open sea."},
+"sounion": {"name":"Sounion","modern":"Cape Sounion","country":"Greece","lat":37.65,"lon":24.02,"certainty":"real","kind":"cape","cantos":[3],"desc":"Apollo kills Phrontis, Menelaus's helmsman. Menelaus stops here to bury him and so parts from Nestor, which changes the rest of his voyage."},
+"malea": {"name":"Cape Malea","modern":"Akra Maleas","country":"Greece","lat":36.44,"lon":23.2,"certainty":"real","kind":"cape","cantos":[3,4,9,19],"desc":"The most feared cape in Greece, the last one before the open sea to the west. Storms here divert Odysseus and Menelaus and mark Agamemnon. This is where Odysseus's voyage leaves the known map."},
+"ismarus": {"name":"Ismarus","alt_name":"Land of the Cicones","modern":"Maroneia, Thrace","country":"Greece","lat":40.87,"lon":25.52,"certainty":"real","kind":"city","cantos":[9,23],"desc":"The last stop in historical territory. Odysseus sacks the city, but his men refuse to leave and the Cicones counterattack: 6 men die per ship. Maron, a priest of Apollo, gives him the strong wine that later gets Polyphemus drunk."},
+"lotus_eaters": {"name":"Land of the Lotus-Eaters","modern":"Djerba","country":"Tunisia","lat":33.8,"lon":10.88,"certainty":"traditional","kind":"land","cantos":[9,23],"desc":"Reached after 9 days adrift. Whoever eats the lotus forgets the way home. Odysseus drags his men back to the ships by force. Herodotus already places them on the Libyan coast, and Polybius points to Djerba.","alts":[]},
+"cyclopes": {"name":"Land of the Cyclopes","alt_name":"Cave of Polyphemus","modern":"Aci Trezza, Sicily (below Etna)","country":"Italy","lat":37.56,"lon":15.16,"certainty":"traditional","kind":"land","cantos":[1,9,23],"desc":"Polyphemus devours 6 men. Odysseus gives his name as Nobody, gets the Cyclops drunk and blinds him. By shouting his real name as he escapes, he draws Poseidon's anger, the cause of the next 10 years. The rocks at Aci Trezza are known as the stones Polyphemus threw.","alts":[{"label":"Phlegraean Fields, near Naples","lat":40.83,"lon":14.14}]},
+"aeolia": {"name":"Aeolia","alt_name":"Island of Aeolus","modern":"Aeolian Islands (Lipari)","country":"Italy","lat":38.48,"lon":14.95,"certainty":"traditional","kind":"island","cantos":[10,23],"desc":"A floating island with a wall of bronze, home of the keeper of the winds. Aeolus gives Odysseus a bag holding the contrary winds. The second visit is short: Aeolus drives him away as a man hated by the gods.","alts":[{"label":"Ustica","lat":38.71,"lon":13.19}]},
+"ithaca_sight": {"name":"Within sight of Ithaca","modern":"Ionian Sea, west of Ithaca","country":"Greece","lat":38.25,"lon":20.15,"certainty":"mythic","kind":"sea","cantos":[10],"desc":"After 10 days of fair wind they can see the fires of Ithaca. Odysseus, who never let go of the helm, falls asleep. His men open the bag and the winds blow everything back to Aeolia. This is the closest he comes to home before the end."},
+"laestrygonians": {"name":"Telepylus of the Laestrygonians","modern":"Formia, Lazio","country":"Italy","lat":41.26,"lon":13.6,"certainty":"traditional","kind":"land","cantos":[10,23],"desc":"Man-eating giants destroy 11 of the 12 ships with boulders inside the enclosed harbor. Only Odysseus's ship, moored outside, escapes. Roman authors placed the site at Formia. The harbor of Bonifacio in Corsica is the most cited modern reading, because it matches the description.","alts":[{"label":"Bonifacio, Corsica","lat":41.39,"lon":9.16},{"label":"Leontini, Sicily (Thucydides)","lat":37.28,"lon":15.0}]},
+"aeaea": {"name":"Aeaea","alt_name":"Island of Circe","modern":"Monte Circeo, Lazio","country":"Italy","lat":41.24,"lon":13.05,"certainty":"traditional","kind":"island","cantos":[8,9,10,11,12,23],"desc":"Circe turns the men into pigs. Hermes gives Odysseus the moly herb so he can resist her. He stays 1 year. Monte Circeo, now joined to the mainland, looks like an island from the sea and has carried her name since antiquity. Elpenor falls from the roof here and is buried on the return from Hades."},
+"hades": {"name":"Land of the Dead","alt_name":"Land of the Cimmerians","modern":"Lake Avernus, Cumae","country":"Italy","lat":40.84,"lon":14.08,"certainty":"mythic","kind":"underworld","cantos":[10,11,12,23,24],"desc":"Homer places it beyond the river Ocean, with no real geography. Odysseus speaks with Tiresias, his mother Anticlea, Agamemnon, Achilles and Ajax, who refuses to answer. Avernus, a volcanic crater, is the Roman gateway (Virgil). The Greeks also pointed to the Acheron in Epirus.","alts":[{"label":"Necromanteion of Acheron, Epirus","lat":39.24,"lon":20.53}]},
+"sirens": {"name":"Island of the Sirens","modern":"Li Galli, Amalfi Coast","country":"Italy","lat":40.58,"lon":14.43,"certainty":"traditional","kind":"island","cantos":[12,23],"desc":"Wax in the men's ears and Odysseus tied to the mast. The Sirens promise to know everything about Troy. The Li Galli islets were called the Sirenusas in antiquity.","alts":[{"label":"Capri","lat":40.55,"lon":14.24}]},
+"scylla": {"name":"Scylla and Charybdis","modern":"Strait of Messina","country":"Italy","lat":38.25,"lon":15.63,"certainty":"traditional","kind":"strait","cantos":[12,23],"desc":"A rock on one side, a whirlpool on the other. Following Circe's advice, Odysseus sails close to Scylla and she takes 6 men. On the way back, alone, he clings to the fig tree above Charybdis until she gives back the wreckage. The strait does have strong currents, and the identification is old and nearly universal."},
+"thrinacia": {"name":"Thrinacia","alt_name":"Island of the cattle of Helios","modern":"Sicily (Milazzo)","country":"Italy","lat":38.22,"lon":15.24,"certainty":"traditional","kind":"island","cantos":[1,11,12,19,23],"desc":"Held for 1 month by contrary winds, the starving men, led by Eurylochus, slaughter the Sun's cattle while Odysseus sleeps. Zeus destroys the ship with a thunderbolt. The whole crew dies. Only Odysseus survives, clinging to the keel."},
+"ogygia": {"name":"Ogygia","alt_name":"Island of Calypso","modern":"Gozo","country":"Malta","lat":36.05,"lon":14.25,"certainty":"mythic","kind":"island","cantos":[1,4,5,7,12,17,23],"desc":"The \"navel of the sea\". Odysseus arrives after 9 days adrift and is held for 7 years. Calypso offers him immortality and he refuses. Gozo has a so-called Calypso's Cave, but Ogygia is the hardest island in the poem to locate: some also place it at Ceuta, on the Strait of Gibraltar, off this map."},
+"scheria": {"name":"Scheria","alt_name":"Land of the Phaeacians","modern":"Corfu","country":"Greece","lat":39.62,"lon":19.92,"certainty":"traditional","kind":"island","cantos":[5,6,7,8,9,10,11,12,13,23],"desc":"Reached after 17 days on a raft, a storm and 2 days of swimming, saved by Ino's veil. Nausicaa finds him on the beach. In the palace of Alcinous he tells Books IX to XII. The Phaeacians take him to Ithaca in one night, and Poseidon turns their ship to stone. On Corfu, the islet of Pontikonisi is shown as that ship."},
+"ithaca": {"name":"Ithaca","modern":"Ithaki, Ionian Islands","country":"Greece","lat":38.37,"lon":20.71,"certainty":"real","kind":"island","cantos":[1,2,4,9,13,14,15,16,17,18,19,20,21,22,23,24],"desc":"Home. It covers 96 km² and has about 3,000 inhabitants today. There is a real debate: Homer says Ithaca is the westernmost of its group, and modern Ithaki is not. That is why some propose Paliki, a peninsula of Cephalonia. The palace of Odysseus has never been found with certainty.","alts":[{"label":"Paliki, Cephalonia (Bittlestone)","lat":38.2,"lon":20.4}]},
+"phorcys": {"name":"Harbor of Phorcys","modern":"Dexa Bay, Vathy","country":"Greece","lat":38.363,"lon":20.706,"certainty":"traditional","kind":"harbor","parent":"ithaca","cantos":[13],"desc":"The Phaeacians leave Odysseus asleep here with his treasure. Athena disguises him as a beggar. Dexa Bay is the local identification."},
+"nymphs": {"name":"Cave of the Nymphs","modern":"Marmarospilia","country":"Greece","lat":38.355,"lon":20.69,"certainty":"traditional","kind":"cave","parent":"ithaca","cantos":[13],"desc":"Athena and Odysseus hide the Phaeacian treasure here and plan the death of the suitors."},
+"eumaeus_hut": {"name":"Eumaeus's Hut","alt_name":"Raven's Rock and the Arethusa spring","modern":"Southern Ithaca, Perapigadia","country":"Greece","lat":38.326,"lon":20.74,"certainty":"traditional","kind":"site","parent":"ithaca","cantos":[13,14,15,16,17,24],"desc":"The loyal swineherd takes in the beggar without knowing who he is. Here Odysseus tells the Cretan lie and reveals himself to Telemachus."},
+"palace": {"name":"Palace of Odysseus","modern":"Stavros, northern Ithaca (School of Homer)","country":"Greece","lat":38.46,"lon":20.65,"certainty":"mythic","kind":"palace","parent":"ithaca","cantos":[1,2,4,17,18,19,20,21,22,23],"desc":"The suitors, Penelope's loom, the dog Argos, Irus, the scar, the bow, the slaughter and the secret of the bed. The location is only the leading hypothesis: Stavros has the site called the School of Homer, and there are other candidates, such as Aetos."},
+"orchard": {"name":"Laertes's Orchard","modern":"Pilikata hills, near Stavros","country":"Greece","lat":38.47,"lon":20.645,"certainty":"mythic","kind":"site","parent":"ithaca","cantos":[11,24],"desc":"Odysseus's father, old and in patched clothes. Odysseus proves who he is by naming the trees Laertes gave him as a child. Athena ends the war here."},
+"asteris": {"name":"Asteris","modern":"Daskalio, Ithaca channel","country":"Greece","lat":38.38,"lon":20.6,"certainty":"traditional","kind":"island","parent":"ithaca","cantos":[4,16],"desc":"The islet where Antinous's suitors lie in wait for Telemachus on his return. Homer speaks of two harbors and Daskalio is too small for that, but it is the obvious candidate."},
+"pylos": {"name":"Pylos","alt_name":"Palace of Nestor","modern":"Ano Englianos, Messenia","country":"Greece","lat":37.03,"lon":21.7,"certainty":"real","kind":"palace","cantos":[1,2,3,4,5,14,15,17],"desc":"A Mycenaean palace excavated in 1939, with Linear B tablets and even a bathtub, which recalls the bath Polycaste gives Telemachus. Nestor tells of the Greeks' return."},
+"pherae": {"name":"Pherae","alt_name":"House of Diocles","modern":"Kalamata","country":"Greece","lat":37.04,"lon":22.11,"certainty":"real","kind":"city","cantos":[3,15],"desc":"Telemachus and Pisistratus spend the night at Diocles's house, both on the way to Sparta and on the way back."},
+"sparta": {"name":"Sparta","alt_name":"Lacedaemon","modern":"Menelaion, near Sparta","country":"Greece","lat":37.06,"lon":22.45,"certainty":"real","kind":"palace","cantos":[3,4,13,15,17],"desc":"Menelaus and Helen receive Telemachus. She mixes an Egyptian drug against grief into the wine and recognizes him by his likeness to his father. Menelaus tells the story of Proteus. In Book XV, Athena calls Telemachus home."},
+"mycenae": {"name":"Mycenae","modern":"Mykines, Argolis","country":"Greece","lat":37.73,"lon":22.76,"certainty":"real","kind":"palace","cantos":[1,3,4,11,24],"desc":"Aegisthus invites Agamemnon to a banquet and kills him like an ox at the manger. Clytemnestra kills Cassandra. This is the counterpoint the poem keeps returning to: the homecoming that went wrong."},
+"argos": {"name":"Argos","modern":"Argos, Argolis","country":"Greece","lat":37.63,"lon":22.72,"certainty":"real","kind":"city","cantos":[3,15],"desc":"Diomedes gets home in 4 days, the calmest voyage of all. Theoclymenus flees from Argos after killing a kinsman."},
+"athens": {"name":"Athens","modern":"Athens","country":"Greece","lat":37.97,"lon":23.73,"certainty":"real","kind":"city","cantos":[3,7],"desc":"Where Orestes comes from to avenge his father in the eighth year. Athena also comes here in Book VII."},
+"crete": {"name":"Crete (Phaistos)","alt_name":"Gortyn","modern":"Phaistos, southern Crete","country":"Greece","lat":35.05,"lon":24.81,"certainty":"real","kind":"island","cantos":[3,14,19],"desc":"Part of Menelaus's fleet is wrecked on the rocks near Gortyn and Phaistos. The remaining 5 ships are carried to Egypt. It is also Odysseus's false homeland in the lies of Books XIV and XIX."},
+"knossos": {"name":"Knossos","modern":"Knossos, Crete","country":"Greece","lat":35.3,"lon":25.16,"certainty":"real","kind":"palace","cantos":[3,19],"desc":"Idomeneus returns here without losing anyone. In the lie of Book XIX, Odysseus says he is Aethon, the brother of Idomeneus."},
+"egypt": {"name":"River Aegyptus","alt_name":"Nile Delta","modern":"Canopic mouth of the Nile","country":"Egypt","lat":31.3,"lon":30.35,"certainty":"real","kind":"river","cantos":[3,4,14,17],"desc":"Menelaus gathers gold and riches around here. Homer calls the Nile the river Aegyptus. In Odysseus's lie, this is where the Cretan raid goes wrong."},
+"pharos": {"name":"Pharos","modern":"Pharos Island, Alexandria","country":"Egypt","lat":31.21,"lon":29.88,"certainty":"real","kind":"island","cantos":[4],"desc":"Menelaus is stuck for 20 days without wind. With Eidothea's help he seizes Proteus, who changes shape and then tells him the fates of Agamemnon, Ajax and Odysseus. Homer puts the island a day's sail from Egypt, much farther than in reality. The famous lighthouse came later."},
+"cyprus": {"name":"Cyprus","modern":"Cyprus","country":"Cyprus","lat":34.85,"lon":33.3,"certainty":"real","kind":"island","cantos":[4,8,17],"desc":"The first stop on Menelaus's circuit, and one of the lands in Odysseus's lie to Antinous. In Book VIII, Aphrodite flees to Paphos after Hephaestus's net."},
+"sidon": {"name":"Sidon","alt_name":"Phoenicia","modern":"Saida","country":"Lebanon","lat":33.56,"lon":35.37,"certainty":"real","kind":"city","cantos":[4,13,14,15],"desc":"King Phaedimus of Sidon gave Menelaus the silver mixing bowl he offers Telemachus. Phoenicians also appear as merchants and kidnappers, as in Eumaeus's story."},
+"erembi": {"name":"Land of the Erembi","modern":"Northern Arabia?","country":"Jordan / Saudi Arabia","lat":29.5,"lon":36.0,"certainty":"mythic","kind":"land","cantos":[4],"desc":"Named only once, in Menelaus's list. No one knows for sure who they were. Ancient authors guessed Arabs. The position here is approximate."},
+"ethiopia": {"name":"Ethiopia","alt_name":"Homer's Ethiopians","modern":"Upper Nile (Meroë)","country":"Sudan","lat":16.94,"lon":33.75,"certainty":"mythic","kind":"land","cantos":[1,4,5],"desc":"A people at the edge of the world, divided into east and west. Poseidon is there feasting on hecatombs in Book I, which is why the gods take the chance to free Odysseus. Menelaus says he reached them. The pin uses Meroë only as a reference."},
+"libya": {"name":"Libya","modern":"Cyrenaica","country":"Libya","lat":32.8,"lon":21.85,"certainty":"real","kind":"land","cantos":[4,14],"desc":"The last land on Menelaus's list: lambs horned from birth and ewes that lamb three times a year."},
+"south_crete": {"name":"Shipwreck south of Crete","modern":"Libyan Sea","country":"Greece","lat":34.6,"lon":25.2,"certainty":"mythic","kind":"sea","cantos":[14],"desc":"In the invented story, the Phoenician takes him toward Libya and Zeus sinks the ship past Crete. He drifts for 9 days on a mast."},
+"thesprotia": {"name":"Thesprotia","alt_name":"Kingdom of Pheidon","modern":"Epirus, south of Igoumenitsa","country":"Greece","lat":39.35,"lon":20.45,"certainty":"real","kind":"land","cantos":[14,16,17,19],"desc":"A stage in the false stories, but a real region. In the lie, this is where the beggar heard news of Odysseus, who was on his way to the oracle at Dodona."},
+"dodona": {"name":"Dodona","modern":"Dodoni, Ioannina","country":"Greece","lat":39.546,"lon":20.787,"certainty":"real","kind":"oracle","cantos":[14,19],"desc":"The oracle of Zeus at the sacred oak. Named in Odysseus's lies, with ruins you can still visit today."},
+"syria": {"name":"Syrie","modern":"Syros, Cyclades","country":"Greece","lat":37.44,"lon":24.92,"certainty":"traditional","kind":"island","cantos":[15],"desc":"Eumaeus's native island, above Ortygia. He was the son of King Ctesius. A Phoenician slave woman, in league with merchants, abducted him and he was sold to Laertes. It has nothing to do with the country of Syria."},
+"delos": {"name":"Delos","alt_name":"Ortygia","modern":"Delos, Cyclades","country":"Greece","lat":37.4,"lon":25.27,"certainty":"real","kind":"island","cantos":[5,6,15],"desc":"Odysseus compares Nausicaa to the palm tree he saw here beside Apollo's altar. He says only that he passed through on a journey that would bring him suffering."},
+"gyrae": {"name":"Gyraean Rocks","modern":"Between Tinos and Mykonos","country":"Greece","lat":37.5,"lon":25.25,"certainty":"traditional","kind":"rock","cantos":[4],"desc":"Ajax son of Oileus escapes the shipwreck and boasts he survived in spite of the gods, and Poseidon splits the rock with his trident. He drowns here. The location is disputed: later authors suggest Caphareus, on Euboea."},
+"phthia": {"name":"Phthia","alt_name":"Land of the Myrmidons","modern":"Thessaly, Spercheios valley","country":"Greece","lat":39.0,"lon":22.5,"certainty":"traditional","kind":"land","cantos":[3,4,11],"desc":"Neoptolemus, son of Achilles, leads the Myrmidons home. In Book IV, Hermione is sent here to marry him."},
+"meliboea": {"name":"Meliboea","modern":"Magnesia, Thessaly","country":"Greece","lat":39.72,"lon":22.9,"certainty":"traditional","kind":"city","cantos":[3],"desc":"Philoctetes's land according to the Iliad. Nestor says only that he got home safely. The poem does not name the city."},
+"olympus": {"name":"Olympus","modern":"Mount Olympus","country":"Greece","lat":40.085,"lon":22.358,"certainty":"real","kind":"mountain","cantos":[1,5,6,8,11,13,20,24],"desc":"A real mountain, 2,917 m, the highest in Greece. Athena pleads for Odysseus at the council of the gods in Books I and V."},
+"solymi": {"name":"Solymi Mountains","modern":"Lycia, western Taurus","country":"Turkey","lat":36.75,"lon":30.2,"certainty":"traditional","kind":"mountain","cantos":[5],"desc":"Returning from Ethiopia, Poseidon spots Odysseus's raft from here and unleashes the storm."},
+"aegae": {"name":"Aegae","modern":"Coast of Achaea","country":"Greece","lat":38.25,"lon":22.08,"certainty":"traditional","kind":"temple","cantos":[5],"desc":"Poseidon's seat, where he goes after nearly drowning Odysseus. Some also place it on Euboea."},
+"taphos": {"name":"Taphos","modern":"Meganisi","country":"Greece","lat":38.65,"lon":20.78,"certainty":"traditional","kind":"island","cantos":[1,14,15,16],"desc":"Land of the Taphian seafarers. Athena disguises herself as their king, Mentes, to speak with Telemachus in Book I."},
+"same": {"name":"Same","modern":"Cephalonia","country":"Greece","lat":38.2,"lon":20.6,"certainty":"traditional","kind":"island","cantos":[1,4,9,15,16,19],"desc":"One of the islands the suitors come from, along with Dulichium, Zacynthus and Ithaca. In Book XVI, Telemachus counts 24 from Same."},
+"zacynthus": {"name":"Zacynthus","modern":"Zakynthos","country":"Greece","lat":37.8,"lon":20.75,"certainty":"real","kind":"island","cantos":[1,9,16,19],"desc":"Named from Odysseus's list of islands in Book IX onward. It sent 20 suitors."},
+"dulichium": {"name":"Dulichium","modern":"Lefkada or the Echinades?","country":"Greece","lat":38.82,"lon":20.68,"certainty":"mythic","kind":"island","cantos":[1,9,14,16,18,19],"desc":"A wheat-rich island that sent the largest group of suitors: 52. Its identity is uncertain. The pin sits on Lefkada, one of the hypotheses."},
+"temese": {"name":"Temese","modern":"Tamassos, Cyprus, or Calabria","country":"Cyprus / Italy","lat":35.0,"lon":33.25,"certainty":"mythic","kind":"city","cantos":[1],"desc":"A destination invented by Athena disguised as Mentes, who says she is going there for copper."}
+},
+
+"characters": [
+{"id":"odysseus","group":"main","name":"Odysseus","alt_name":"Ulysses","role":"King of Ithaca","start_ships":12,"summary":"10 years on a voyage that, sailed directly, would take a few weeks. He leaves Troy with 12 ships and arrives alone, on someone else's ship, asleep.","fate":"He returns to Ithaca in the twentieth year and kills the suitors. Tiresias says he must still walk inland with an oar, until he meets people who take it for a winnowing fan.","stops":[
+{"place":"troy","cantos":[9],"time":"End of the war","note":"Sets out with 12 ships.","ships":12},
+{"place":"ismarus","cantos":[9],"leg":"sea","time":"First days","note":"The sack. 6 men die per ship, 72 in all.","ships":12},
+{"place":"malea","cantos":[9],"leg":"sea","time":"2 days of storm","note":"Almost home, but the north wind drags him out of the known world.","ships":12},
+{"place":"lotus_eaters","cantos":[9],"leg":"sea","time":"9 days adrift","note":"First mythical land. The lotus makes the men forget the way home.","ships":12},
+{"place":"cyclopes","cantos":[9],"leg":"sea","note":"Polyphemus devours 6. Poseidon begins to pursue him.","ships":12},
+{"place":"aeolia","cantos":[10],"leg":"sea","time":"1 month as a guest","note":"Receives the winds in a bag.","ships":12},
+{"place":"ithaca_sight","cantos":[10],"leg":"sea","time":"10 days","note":"Sees the fires of home. The men open the bag.","ships":12},
+{"place":"aeolia","cantos":[10],"leg":"sea","note":"Blown back by the winds. Aeolus drives him away.","ships":12},
+{"place":"laestrygonians","cantos":[10],"leg":"sea","time":"7 days","note":"Loses 11 of the 12 ships.","ships":1},
+{"place":"aeaea","cantos":[10],"leg":"sea","time":"1 year with Circe","note":"Men become pigs and then men again.","ships":1},
+{"place":"hades","cantos":[11],"leg":"sea","time":"1 day's sail","note":"Consults Tiresias.","ships":1},
+{"place":"aeaea","cantos":[12],"leg":"sea","note":"Buries Elpenor. Circe gives instructions.","ships":1},
+{"place":"sirens","cantos":[12],"leg":"sea","note":"Tied to the mast.","ships":1},
+{"place":"scylla","cantos":[12],"leg":"sea","note":"Scylla takes 6 men.","ships":1},
+{"place":"thrinacia","cantos":[12],"leg":"sea","time":"Held for 1 month","note":"The men eat the Sun's cattle. Zeus sinks the ship.","ships":0},
+{"place":"scylla","cantos":[12],"leg":"sea","time":"One night","note":"Alone on the keel, he clings to the fig tree above Charybdis.","ships":0},
+{"place":"ogygia","cantos":[12,5,1],"leg":"sea","time":"9 days adrift, 7 years held","note":"Calypso.","ships":0},
+{"place":"scheria","cantos":[5,6,7,8],"leg":"sea","time":"17 days and a storm","note":"Hermes orders his release. Raft, 2 days of swimming, Nausicaa.","ships":0},
+{"place":"phorcys","cantos":[13],"leg":"sea","time":"1 night","note":"Left asleep on Ithaca with his treasure.","ships":0},
+{"place":"eumaeus_hut","cantos":[14,15,16],"leg":"land","note":"Disguised as a beggar. Reveals himself to his son.","ships":0},
+{"place":"palace","cantos":[17,18,19,20,21,22,23],"leg":"land","note":"Argos, Irus, the scar, the bow, the slaughter, the bed.","ships":0},
+{"place":"orchard","cantos":[24],"leg":"land","note":"Reunited with Laertes. Athena imposes peace.","ships":0}
+]},
+
+{"id":"telemachus","group":"main","name":"Telemachus","role":"Son of Odysseus","summary":"The Telemachy of Books I to IV and XV: his first voyage, in search of news of his father. He goes to Pylos by sea and to Sparta by chariot.","fate":"He escapes the ambush at Asteris, finds his father at the hut and fights beside him against the suitors.","stops":[
+{"place":"palace","cantos":[1,2],"note":"The assembly. Athena persuades him. He leaves at night."},
+{"place":"pylos","cantos":[3],"leg":"sea","time":"1 night","note":"Nestor tells of the homecomings."},
+{"place":"pherae","cantos":[3],"leg":"land","time":"1 day by chariot","note":"A night at Diocles's house, with Pisistratus."},
+{"place":"sparta","cantos":[4],"leg":"land","time":"1 day by chariot","note":"Menelaus and Helen."},
+{"place":"pherae","cantos":[15],"leg":"land","note":"Athena tells him to go back."},
+{"place":"pylos","cantos":[15],"leg":"land","note":"Avoids Nestor and sails, taking Theoclymenus."},
+{"place":"eumaeus_hut","cantos":[15,16],"leg":"sea","via":[[37.64,21.25],[37.95,21.05],[38.3,21.05]],"time":"1 night","note":"Sails past Pheae, Elis and the Pointed Islands, avoiding the ambush. Lands in the south and finds his father."},
+{"place":"palace","cantos":[17],"leg":"land","note":"Returns to the palace, ahead of his father."}
+]},
+
+{"id":"menelaus","group":"returns","name":"Menelaus","alt_name":"with Helen","role":"King of Sparta","summary":"He parts from Nestor to bury his helmsman and spends 8 years in the south, growing rich. It is the longest voyage after Odysseus's and covers the greatest distances. Helen returns with him.","fate":"He arrives on the day of Aegisthus's funeral. He is destined for the Elysian Fields, as Zeus's son-in-law.","order_note":"Homer lists Cyprus, Phoenicia, Egypt, Ethiopia, Sidon, the Erembi and Libya as a catalog. The order on the map is a reconstruction.","stops":[
+{"place":"troy","cantos":[3],"note":"Quarrels with Agamemnon and leaves before him."},
+{"place":"tenedos","cantos":[3],"leg":"sea","note":"First stop."},
+{"place":"lesbos","cantos":[3],"leg":"sea","note":"Catches up with Nestor."},
+{"place":"geraestus","cantos":[3],"leg":"sea","note":"Crosses the open sea."},
+{"place":"sounion","cantos":[3],"leg":"sea","note":"Buries the helmsman Phrontis."},
+{"place":"malea","cantos":[3],"leg":"sea","note":"The storm splits the fleet."},
+{"place":"crete","cantos":[3],"leg":"sea","note":"Part of the fleet is wrecked."},
+{"place":"egypt","cantos":[3,4],"leg":"sea","note":"Arrives with 5 ships."},
+{"place":"cyprus","cantos":[4],"leg":"sea","note":"The circuit begins."},
+{"place":"sidon","cantos":[4],"leg":"sea","note":"Receives the silver mixing bowl."},
+{"place":"erembi","cantos":[4],"leg":"land","note":"An unidentified people."},
+{"place":"ethiopia","cantos":[4],"leg":"land","note":"The edge of the world."},
+{"place":"libya","cantos":[4],"leg":"land","note":"Horned lambs."},
+{"place":"pharos","cantos":[4],"leg":"sea","time":"20 days without wind","note":"Seizes Proteus."},
+{"place":"egypt","cantos":[4],"leg":"sea","note":"Returns to the Nile for the hecatomb."},
+{"place":"sparta","cantos":[3,4],"leg":"sea","via":[[36.6,22.6]],"time":"8th year","note":"Lands in the Laconian Gulf and goes on to Sparta."}
+]},
+
+{"id":"agamemnon","group":"returns","name":"Agamemnon","role":"King of Mycenae","summary":"A short voyage with a fatal arrival. He rounds Malea in a storm, reaches the Argolid and is killed at home.","fate":"He dies at Aegisthus's banquet, with Clytemnestra beside her lover. In Homer the crime happens at a banquet, not in Aeschylus's bath. His soul tells the whole story in Book XI.","stops":[
+{"place":"troy","cantos":[3],"note":"Stays longer at Troy to make sacrifices."},
+{"place":"malea","cantos":[4],"leg":"sea","note":"Hera protects him, but the storm throws him onto Aegisthus's lands."},
+{"place":"mycenae","cantos":[4,11,24],"leg":"sea","via":[[37.0,23.05],[37.53,22.78]],"note":"Kisses the ground, watched from afar by a spy posted for 1 year, and is killed at the banquet."}
+]},
+
+{"id":"orestes","group":"returns","name":"Orestes","role":"Son of Agamemnon","summary":"The example Athena and Nestor hold up to Telemachus. He returns from exile to avenge his father.","fate":"In the eighth year he kills Aegisthus. Homer implies, without saying, that Clytemnestra dies too: he gives the funeral feast for his mother.","order_note":"Athens is the common reading of Book III. Some ancient editors read Phocis.","stops":[
+{"place":"athens","cantos":[3],"note":"In exile."},
+{"place":"mycenae","cantos":[1,3],"leg":"land","time":"8th year","note":"Avenges his father."}
+]},
+
+{"id":"nestor","group":"returns","name":"Nestor","role":"King of Pylos","summary":"He reads the bad omen and leaves early, directly, without debate. No losses at all.","fate":"He returns to Pylos without incident, tells Telemachus everything and does not know what became of the others.","stops":[
+{"place":"troy","cantos":[3],"note":"Leaves with Menelaus."},
+{"place":"tenedos","cantos":[3],"leg":"sea","note":"Odysseus turns back here."},
+{"place":"lesbos","cantos":[3],"leg":"sea","note":"Decides to cross the open sea."},
+{"place":"geraestus","cantos":[3],"leg":"sea","note":"Sacrifice to Poseidon."},
+{"place":"pylos","cantos":[3],"leg":"sea","via":[[36.3,23.25]],"note":"Reaches home on a steady wind."}
+]},
+
+{"id":"diomedes","group":"returns","name":"Diomedes","role":"King of Argos","summary":"The fastest homecoming Nestor mentions.","fate":"On the fourth day he docks at Argos. The Odyssey tells nothing more of his life.","stops":[
+{"place":"troy","cantos":[3],"note":"Leaves with Nestor."},
+{"place":"tenedos","cantos":[3],"leg":"sea","note":"Stopover."},
+{"place":"lesbos","cantos":[3],"leg":"sea","note":"Stopover."},
+{"place":"geraestus","cantos":[3],"leg":"sea","note":"Stopover."},
+{"place":"argos","cantos":[3],"leg":"sea","via":[[37.52,22.78]],"time":"4 days","note":"Home."}
+]},
+
+{"id":"ajax","group":"returns","name":"Ajax son of Oileus","role":"King of the Locrians","summary":"Not Ajax son of Telamon. He survives the shipwreck and boasts he has beaten the gods.","fate":"Poseidon splits the rock he is on. He drowns.","stops":[
+{"place":"troy","cantos":[4],"note":"Leaves with the fleet."},
+{"place":"gyrae","cantos":[4],"leg":"sea","note":"Killed by Poseidon."}
+]},
+
+{"id":"neoptolemus","group":"returns","name":"Neoptolemus","role":"Son of Achilles","summary":"Nestor says only that he returned safely with the Myrmidons.","fate":"He marries Hermione, daughter of Menelaus, in Book IV. Achilles's soul asks about him in Book XI.","stops":[
+{"place":"troy","cantos":[3,11],"note":"A hero of the wooden horse."},
+{"place":"phthia","cantos":[3,4],"leg":"sea","note":"Home."}
+]},
+
+{"id":"idomeneus","group":"returns","name":"Idomeneus","role":"King of Crete","summary":"He returns to Crete without losing a man, according to Nestor.","fate":"Mentioned later in Odysseus's lies.","stops":[
+{"place":"troy","cantos":[3],"note":"Leaves with the fleet."},
+{"place":"knossos","cantos":[3],"leg":"sea","note":"Home."}
+]},
+
+{"id":"philoctetes","group":"returns","name":"Philoctetes","role":"Archer","summary":"Nestor mentions his return in a single sentence.","fate":"Odysseus says in Book VIII that only Philoctetes outdid him with the bow at Troy.","stops":[
+{"place":"troy","cantos":[3,8],"note":"Leaves with the fleet."},
+{"place":"meliboea","cantos":[3],"leg":"sea","note":"Home."}
+]},
+
+{"id":"eumaeus","group":"secondary","name":"Eumaeus","role":"Odysseus's swineherd","summary":"A king's son, abducted as a child by a Phoenician slave woman. Sold to Laertes, he is raised alongside Ctimene, Odysseus's sister.","fate":"He fights beside Odysseus and is promised a house and a wife.","stops":[
+{"place":"syria","cantos":[15],"note":"Born the son of King Ctesius."},
+{"place":"eumaeus_hut","cantos":[15],"leg":"sea","time":"7 days","note":"Sold to Laertes. Today he keeps the pigs."}
+]},
+
+{"id":"theoclymenus","group":"secondary","name":"Theoclymenus","role":"Fugitive seer","summary":"He kills a kinsman in Argos and flees. He asks Telemachus for passage on the beach at Pylos.","fate":"In Book XX he sees the suitors covered in blood and foretells the slaughter.","stops":[
+{"place":"argos","cantos":[15],"note":"Flees after the crime."},
+{"place":"pylos","cantos":[15],"leg":"land","note":"Meets Telemachus."},
+{"place":"eumaeus_hut","cantos":[15,17],"leg":"sea","via":[[37.64,21.25],[37.95,21.05],[38.3,21.05]],"note":"Reaches Ithaca."},
+{"place":"palace","cantos":[17,20],"leg":"land","note":"Final prophecy."}
+]},
+
+{"id":"cretan_lie","group":"secondary","name":"The Cretan lie","alt_name":"Book XIV","role":"A voyage invented by Odysseus","invented":true,"summary":"What the beggar tells Eumaeus: a false life, set entirely in real places. It is a fictional route inside the fiction, and oddly easier to mark on a map than the real voyage.","fate":"Eumaeus believes all of it except the one true part: that Odysseus is coming home.","stops":[
+{"place":"knossos","cantos":[14],"note":"Claims to be a bastard son of Castor of Crete."},
+{"place":"egypt","cantos":[14],"leg":"sea","time":"5 days, 7 years there","note":"The raid goes wrong and the pharaoh spares him."},
+{"place":"sidon","cantos":[14],"leg":"sea","time":"1 year","note":"Tricked by a Phoenician."},
+{"place":"south_crete","cantos":[14],"leg":"sea","note":"Bound for Libya, Zeus sinks the ship."},
+{"place":"thesprotia","cantos":[14],"leg":"sea","time":"9 days on a mast","note":"King Pheidon takes him in."},
+{"place":"eumaeus_hut","cantos":[14],"leg":"sea","note":"Sailors tie him up and he escapes on Ithaca."}
+]},
+
+{"id":"athena","group":"gods","name":"Athena","role":"Protector goddess","flight":true,"summary":"She steers the whole poem. She changes form and appears as Mentes, Mentor, a girl, a shepherd.","fate":"In the last book, as Mentor, she ends Ithaca's civil war.","stops":[
+{"place":"olympus","cantos":[1],"note":"Defends Odysseus at the council."},
+{"place":"palace","cantos":[1,2],"leg":"air","note":"Disguised as Mentes, then as Mentor."},
+{"place":"pylos","cantos":[3],"leg":"sea","note":"Sails with Telemachus as Mentor, then flies off as a bird."},
+{"place":"scheria","cantos":[6,7,8],"leg":"air","note":"Sends Nausicaa to the beach."},
+{"place":"phorcys","cantos":[13],"leg":"air","note":"Disguises Odysseus as a beggar."},
+{"place":"sparta","cantos":[15],"leg":"air","note":"Rouses Telemachus."},
+{"place":"palace","cantos":[22,23,24],"leg":"air","note":"Helps in the slaughter and lengthens the night of the reunion."},
+{"place":"orchard","cantos":[24],"leg":"air","note":"Makes peace."}
+]},
+
+{"id":"hermes","group":"gods","name":"Hermes","role":"Messenger of the gods","flight":true,"summary":"He carries Zeus's order to Calypso, flying over Pieria, and protects Odysseus against Circe. He leads the souls at the end.","fate":"In Book XXIV, he leads the suitors' souls to Hades.","stops":[
+{"place":"olympus","cantos":[5],"note":"Zeus's order."},
+{"place":"ogygia","cantos":[5],"leg":"air","note":"Tells Calypso to release Odysseus."},
+{"place":"aeaea","cantos":[10],"leg":"air","note":"Gives him the moly herb."},
+{"place":"palace","cantos":[24],"leg":"air","note":"Gathers the suitors' souls."},
+{"place":"hades","cantos":[24],"leg":"air","note":"Past the White Rock and the gates of the Sun."}
+]},
+
+{"id":"poseidon","group":"gods","name":"Poseidon","role":"God of the sea, enemy of Odysseus","flight":true,"summary":"Father of Polyphemus. His absence in Book I opens Odysseus's chance, and his return nearly drowns him.","fate":"He punishes the Phaeacians in Book XIII. Zeus suggests turning their ship to stone.","stops":[
+{"place":"ethiopia","cantos":[1,5],"note":"Feasting on hecatombs at the ends of the Earth."},
+{"place":"solymi","cantos":[5],"leg":"air","note":"Spots the raft and unleashes the storm."},
+{"place":"aegae","cantos":[5],"leg":"air","note":"Goes home, satisfied."},
+{"place":"olympus","cantos":[13],"leg":"air","note":"Complains to Zeus."},
+{"place":"scheria","cantos":[13],"leg":"air","note":"Turns the Phaeacian ship to stone."}
+]}
+],
+
+"cantos": [
+{"n":1,"roman":"I","title":"The council of the gods","summary":"Athena pleads for Odysseus while Poseidon is in Ethiopia. She goes down to Ithaca disguised as Mentes and finds Telemachus among the suitors.","places":["olympus","ethiopia","palace","ogygia","mycenae","taphos","temese"],"chars":["athena"]},
+{"n":2,"roman":"II","title":"The assembly of Ithaca","summary":"Telemachus confronts the suitors in public. Penelope's trick at the loom is exposed. He leaves at night, in secret.","places":["palace"],"chars":["telemachus"]},
+{"n":3,"roman":"III","title":"Telemachus at Pylos","summary":"Nestor tells of the Greeks' return: the split at Tenedos, the council at Lesbos, Menelaus's detour and the murder of Agamemnon.","places":["pylos","troy","tenedos","lesbos","geraestus","sounion","malea","crete","egypt","mycenae","athens","argos","phthia","meliboea","knossos","pherae"],"chars":["telemachus","nestor","menelaus","diomedes","orestes","neoptolemus","idomeneus","philoctetes"]},
+{"n":4,"roman":"IV","title":"Telemachus at Sparta","summary":"Helen and Menelaus receive Telemachus. Menelaus tells of Proteus at Pharos, the deaths of Ajax and Agamemnon, and says Odysseus is held on Ogygia. The suitors set the ambush at Asteris.","places":["sparta","pharos","egypt","cyprus","sidon","erembi","ethiopia","libya","gyrae","malea","mycenae","ogygia","asteris","phthia"],"chars":["telemachus","menelaus","ajax","agamemnon"]},
+{"n":5,"roman":"V","title":"Calypso's raft","summary":"Odysseus's first appearance, weeping on the beach. Hermes brings the order. He sails 17 days until Poseidon spots the raft from the Solymi Mountains. Ino saves him with her veil.","places":["olympus","ogygia","solymi","scheria","ethiopia","aegae"],"chars":["odysseus","hermes","poseidon"]},
+{"n":6,"roman":"VI","title":"Nausicaa","summary":"Athena sends the princess to wash clothes. Odysseus, naked and caked in salt, comes out of the bushes and compares her to the palm of Delos.","places":["scheria","delos"],"chars":["odysseus","athena"]},
+{"n":7,"roman":"VII","title":"The palace of Alcinous","summary":"Eternal gardens and golden dogs. Odysseus supplicates Arete and tells, in brief, how he came from Ogygia.","places":["scheria","ogygia","athens"],"chars":["odysseus"]},
+{"n":8,"roman":"VIII","title":"The games and Demodocus","summary":"The blind bard sings of Troy. Odysseus weeps, hiding his face. He also sings of Ares and Aphrodite, and the wooden horse. Alcinous finally asks who he is.","places":["scheria","troy","cyprus"],"chars":["odysseus","athena"]},
+{"n":9,"roman":"IX","title":"The Cyclopes","summary":"Odysseus reveals his name and tells of the voyage: the Cicones, the storm at Malea, the Lotus-Eaters and the cave of Polyphemus.","places":["ithaca","same","zacynthus","dulichium","troy","ismarus","malea","lotus_eaters","cyclopes"],"chars":["odysseus"]},
+{"n":10,"roman":"X","title":"Aeolus, the Laestrygonians and Circe","summary":"The bag of winds, the arrival within sight of home and the forced return. 11 ships destroyed. A year on Aeaea.","places":["aeolia","ithaca_sight","laestrygonians","aeaea"],"chars":["odysseus","hermes"]},
+{"n":11,"roman":"XI","title":"The descent to Hades","summary":"A blood sacrifice. Tiresias prophesies, Anticlea tells of home, Agamemnon warns, and Achilles says he would rather be a living servant.","places":["hades","aeaea","mycenae","troy","thrinacia","phthia","orchard"],"chars":["odysseus","agamemnon"]},
+{"n":12,"roman":"XII","title":"Sirens, Scylla and the Sun's cattle","summary":"Back to Circe. Then the Sirens, Scylla and Charybdis, and hunger on Thrinacia. Zeus kills everyone but him. Odysseus reaches Ogygia alone, and the story catches up with its beginning.","places":["aeaea","sirens","scylla","thrinacia","ogygia"],"chars":["odysseus"]},
+{"n":13,"roman":"XIII","title":"The return to Ithaca","summary":"The Phaeacians leave him asleep at Phorcys. Poseidon turns the ship to stone. Athena changes him into an old beggar.","places":["scheria","phorcys","nymphs","sparta"],"chars":["odysseus","athena","poseidon"]},
+{"n":14,"roman":"XIV","title":"Eumaeus","summary":"The swineherd takes in the beggar, who tells the Cretan lie, full of real places.","places":["eumaeus_hut","knossos","egypt","sidon","south_crete","thesprotia","dodona","taphos","pylos"],"chars":["odysseus","cretan_lie"]},
+{"n":15,"roman":"XV","title":"Telemachus's return","summary":"Athena goes to Sparta. Telemachus returns by way of Pherae and Pylos, picks up Theoclymenus and escapes the ambush. Eumaeus tells of his abduction from Syrie.","places":["sparta","pherae","pylos","argos","syria","delos","sidon","eumaeus_hut"],"chars":["telemachus","theoclymenus","eumaeus","athena"]},
+{"n":16,"roman":"XVI","title":"Father and son","summary":"Telemachus reaches the hut. Athena restores Odysseus's appearance and he reveals himself. The suitors return frustrated from the ambush.","places":["eumaeus_hut","asteris","palace","dulichium","same","zacynthus","taphos"],"chars":["telemachus","odysseus"]},
+{"n":17,"roman":"XVII","title":"The dog Argos","summary":"Odysseus enters the palace as a beggar. Argos, old, recognizes him and dies. Antinous strikes him with a stool.","places":["palace","eumaeus_hut","egypt","cyprus","pylos","sparta"],"chars":["odysseus","theoclymenus"]},
+{"n":18,"roman":"XVIII","title":"The fight with Irus","summary":"Odysseus beats the palace beggar. Penelope appears before the suitors and draws gifts from them.","places":["palace","dulichium"],"chars":["odysseus"]},
+{"n":19,"roman":"XIX","title":"Penelope and the scar","summary":"Odysseus, now Aethon of Crete, tells Penelope a new lie. Eurycleia recognizes him by the boar's scar. Penelope announces the contest of the bow.","places":["palace","knossos","malea","thesprotia","dodona","thrinacia"],"chars":["odysseus"]},
+{"n":20,"roman":"XX","title":"The eve","summary":"Bad omens. Theoclymenus sees the suitors covered in blood, and they laugh at him.","places":["palace","olympus"],"chars":["theoclymenus"]},
+{"n":21,"roman":"XXI","title":"The bow","summary":"No suitor can string the bow. The beggar strings it as one tunes a lyre and shoots through the twelve axes.","places":["palace"],"chars":["odysseus"]},
+{"n":22,"roman":"XXII","title":"The slaughter","summary":"Antinous dies first. Athena deflects the spears. Afterward, the disloyal maids are hanged.","places":["palace"],"chars":["odysseus","telemachus","athena"]},
+{"n":23,"roman":"XXIII","title":"The secret of the bed","summary":"Penelope tests her husband: the bed was built from an olive tree rooted in the ground. He tells her the whole voyage, and Athena lengthens the night.","places":["palace","ismarus","lotus_eaters","cyclopes","aeolia","laestrygonians","aeaea","hades","sirens","scylla","thrinacia","ogygia","scheria"],"chars":["odysseus","athena"]},
+{"n":24,"roman":"XXIV","title":"Laertes and peace","summary":"Hermes leads the suitors' souls. In the orchard, the counted trees prove who he is. The families attack, and Athena imposes peace.","places":["hades","palace","orchard","mycenae"],"chars":["odysseus","hermes","athena"]}
+]
+}

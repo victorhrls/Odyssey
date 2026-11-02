@@ -1,0 +1,62 @@
+[
+ {
+  "family": "GFS Didot",
+  "weight": 400,
+  "style": "normal",
+  "file": "geo/node_modules/@fontsource/gfs-didot/files/gfs-didot-latin-400-normal.woff2"
+ },
+ {
+  "family": "Cormorant SC",
+  "weight": 500,
+  "style": "normal",
+  "file": "geo/node_modules/@fontsource/cormorant-sc/files/cormorant-sc-latin-500-normal.woff2"
+ },
+ {
+  "family": "Cormorant SC",
+  "weight": 600,
+  "style": "normal",
+  "file": "geo/node_modules/@fontsource/cormorant-sc/files/cormorant-sc-latin-600-normal.woff2"
+ },
+ {
+  "family": "Alegreya",
+  "weight": 400,
+  "style": "normal",
+  "file": "geo/node_modules/@fontsource/alegreya/files/alegreya-latin-400-normal.woff2"
+ },
+ {
+  "family": "Alegreya",
+  "weight": 400,
+  "style": "italic",
+  "file": "geo/node_modules/@fontsource/alegreya/files/alegreya-latin-400-italic.woff2"
+ },
+ {
+  "family": "Alegreya",
+  "weight": 500,
+  "style": "normal",
+  "file": "geo/node_modules/@fontsource/alegreya/files/alegreya-latin-500-normal.woff2"
+ },
+ {
+  "family": "Alegreya",
+  "weight": 700,
+  "style": "normal",
+  "file": "geo/node_modules/@fontsource/alegreya/files/alegreya-latin-700-normal.woff2"
+ },
+ {
+  "family": "Alegreya Sans",
+  "weight": 400,
+  "style": "normal",
+  "file": "geo/node_modules/@fontsource/alegreya-sans/files/alegreya-sans-latin-400-normal.woff2"
+ },
+ {
+  "family": "Alegreya Sans",
+  "weight": 500,
+  "style": "normal",
+  "file": "geo/node_modules/@fontsource/alegreya-sans/files/alegreya-sans-latin-500-normal.woff2"
+ },
+ {
+  "family": "Alegreya Sans",
+  "weight": 700,
+  "style": "normal",
+  "file": "geo/node_modules/@fontsource/alegreya-sans/files/alegreya-sans-latin-700-normal.woff2"
+ }
+]
