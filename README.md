@@ -2,6 +2,8 @@
 
 An interactive map of Homer's *Odyssey* drawn over the real Mediterranean. It shows where each character travels, Book by Book, and how sure we can be about each place.
 
+![Odysseus's route across the Mediterranean](docs/screenshots/map.jpg)
+
 Open `build/index.html` in a browser. It is one self-contained file and needs no server or network.
 
 ## What it does
@@ -12,6 +14,24 @@ Open `build/index.html` in a browser. It is one self-contained file and needs no
 - **Playback**: animate a voyage stop by stop, with a ship counter for Odysseus.
 - **Compare**: show several routes at once.
 - **Search**, zoom and drag, with a close-up of the sites on Ithaca. Works on phones.
+
+## Screenshots
+
+**Compare routes.** Odysseus, Telemachus, Menelaus and Agamemnon on one map.
+
+![Four routes compared](docs/screenshots/compare.jpg)
+
+**Follow the book.** Pick a Book to see where it takes place. Here, Book IX.
+
+![Book IX selected](docs/screenshots/book.jpg)
+
+**Zoom in on Ithaca.** The sites on the island, with Paliki shown as an alternative location.
+
+![Close-up of Ithaca](docs/screenshots/ithaca.jpg)
+
+**On a phone.** The panels become a bottom drawer. Here, the route of Telemachus.
+
+<img src="docs/screenshots/mobile.jpg" alt="Telemachus's route on a phone" width="320">
 
 ## How to read the map
 
@@ -39,6 +59,7 @@ Sea routes are computed to avoid land, so paths and distances are approximate an
 | `build/routes.py` | Computes sea routes and writes `src/world.json` |
 | `build/bundle.py` | Combines everything into `build/index.html` |
 | `tools/shot.js` | Takes screenshots with Playwright |
+| `docs/screenshots/` | Images used in this README |
 | `BRIEF.md`, `design/` | The original brief and the design reviews |
 
 ## Rebuilding
